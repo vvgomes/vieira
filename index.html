@@ -7,32 +7,376 @@
   <meta name="description" content="Carlos Eduardo Vieira Engenharia Civil & PPCI">
   <title>Carlos Eduardo Vieira Engenharia</title>
 
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/vieira/css/main.css">
   <link rel="canonical" href="http://carloseduardovieira.com/vieira/">
   <link rel="alternate" type="application/rss+xml" title="Carlos Eduardo Vieira Engenharia" href="http://carloseduardovieira.com/vieira/feed.xml" />
 </head>
 <body>
-  
-  <main><div class="home">
+<header class="navigation">
+  <div class="navigation-wrapper">
+    <a href="javascript:void(0)" class="logo">
+      <span class="fa fa-cubes fa-2x" alt="Logo"></span>
+    </a>
+    <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
+    <div class="nav">
+      <ul id="js-navigation-menu" class="navigation-menu show">
+        <li class="nav-link">
+          <a href="/vieira/" >Inicio</a>
+        </li>
+        <li class="nav-link more">
+          <a href="#servicos">Serviços</a>
+          <ul class="submenu">
+            <li><a href="#servicos">Engenharia Civil</a></li>
+            <li><a href="#servicos">PPCI</a></li>
+            <li><a href="#servicos">Regularização Predial</a></li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <a href="#depoimentos">Depoimentos</a>
+        </li>
+        <li class="nav-link">
+          <a href="#local">Localização</a>
+        </li>
+        <li class="nav-link">
+          <a href="#contato">Contato</a>
+        </li>
+        <li class="nav-link">
+          <a href="#sobre">Sobre</a>
+        </li>
+      </ul>
+    </div>
+    <div class="navigation-tools">
+      <div class="search-bar">
+        <div class="search-and-submit">
+          <input type="search" placeholder="Pesquisar..." />
+          <button type="submit">
+            <span class="fa fa-search"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
 
-  <h1 class="page-heading">Posts</h1>
+<main><div class="hero">
+	<div class="hero-inner">
+    <div class="hero-logo">
+      <span class="fa fa-cubes fa-4x" alt="Logo">
+    </div>
+		<div class="hero-copy">
+      <h1>Carlos Eduardo Vieira <span class="subtitle">Engenharia</span></h1>
+        <p>Análise, planejamento e execução de projetos de Engenharia Civil. 
+        Nosso foco é a agilidade na conclusão e a garantia da sua satisfação.</p>
+		</div>
+      <a href="#contato">
+        <button>
+          <span class="fa fa-comment"></span> &nbsp; Entre em contato
+        </button>
+      </a>
+	</div>
+</div>
 
-  <ul class="post-list">
-    
-      <li>
-        <span class="post-meta">Jan 8, 2015</span>
+<a name="servicos">
+  <h1 class="break">O que você procura?</h1>
+</a>
 
-        <h2>
-          <a class="post-link" href="/vieira/jekyll/update/2015/01/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
-        </h2>
-      </li>
-    
-  </ul>
+<ul class="bullets">
+  <li class="bullet three-col-bullet">
+    <div class="bullet-icon bullet-icon-1">
+      <span class="fa fa-pencil fa-2x"></span>
+    </div>
+    <div class="bullet-content">
+      <h2>Engenharia Civil</h2>
+      <p>Planejamento, elaboração e execução de projetos de engenharia civil utlizando as tecnologias atuais. 
+      <a href="javascript:void(0)">Saiba mais...</a></p>
+      <footer>
+        <div class="modal">
+          <label for="modal-1">
+            <div class="modal-trigger"><span class="fa fa-calculator"></span>&nbsp; Solicitar orçamento</div>
+          </label>
+          <input class="modal-state" id="modal-1" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-1"></label>
+              <h1>Orçamento Gratuito</h1>
+              <p class="modal-intro">Forneça uma breve descrição das suas necessidades para que possamos lhe enviar uma estimativa ou entrar em contato o mais breve possível.</p>
+              <div class="modal-content">
+                <form class="message" accept-charset="UTF-8">
+                  <input type="hidden" name="utf8" value="✓">
+                  <input type="text" name="name" placeholder="Seu nome" required autofocus>
+                  <input type="email" name="email" placeholder="Seu email" required>
+                  <input type="text" name="phone" placeholder="Seu telefone">
+                  <textarea name="text" placeholder="Sua mensagem" required></textarea>
+                  <button type="submit"><span class="fa fa-check"></span>&nbsp; Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </li>  
 
-  <p class="rss-subscribe">subscribe <a href="/vieira/feed.xml">via RSS</a></p>
+  <li class="bullet three-col-bullet">
+    <div class="bullet-icon bullet-icon-2">
+      <span class="fa fa-fire-extinguisher fa-2x"></span>
+    </div>
+    <div class="bullet-content">
+      <h2>PPCI</h2>
+      <p>Plano de Proteção Contra Incêndios - projeto e execução visando a adequação com a nova legislação. 
+      <a href="javascript:void(0)">Saiba mais...</a></p>
+      <footer>
+        <div class="modal">
+          <label for="modal-2">
+            <div class="modal-trigger"><span class="fa fa-calculator"></span>&nbsp; Solicitar orçamento</div>
+          </label>
+          <input class="modal-state" id="modal-2" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-2"></label>
+              <h1>Orçamento Gratuito</h1>
+              <p class="modal-intro">Forneça uma breve descrição das suas necessidades para que possamos lhe enviar uma estimativa ou entrar em contato o mais breve possível.</p>
+              <div class="modal-content">
+                <form class="message" accept-charset="UTF-8">
+                  <input type="hidden" name="utf8" value="✓">
+                  <input type="text" name="name" placeholder="Seu nome" required autofocus>
+                  <input type="email" name="email" placeholder="Seu email" required>
+                  <input type="text" name="phone" placeholder="Seu telefone">
+                  <textarea name="text" placeholder="Sua mensagem" required></textarea>
+                  <button type="submit"><span class="fa fa-check"></span>&nbsp; Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </li>
 
+  <li class="bullet three-col-bullet">
+    <div class="bullet-icon bullet-icon-3">
+      <span class="fa fa-building fa-2x"></span>
+    </div>
+    <div class="bullet-content">
+      <h2>Regularização Predial</h2>
+      <p>Laudos técnicos e fiscalização de instalações prediais de acordo com a legislação vigente. 
+      <a href="javascript:void(0)">Saiba mais...</a></p>
+      <footer>
+        <div class="modal">
+          <label for="modal-3">
+            <div class="modal-trigger"><span class="fa fa-calculator"></span>&nbsp; Solicitar orçamento</div>
+          </label>
+          <input class="modal-state" id="modal-3" type="checkbox" />
+          <div class="modal-window">
+            <div class="modal-inner">
+              <label class="modal-close" for="modal-3"></label>
+              <h1>Orçamento Gratuito</h1>
+              <p class="modal-intro">Forneça uma breve descrição das suas necessidades para que possamos lhe enviar uma estimativa ou entrar em contato o mais breve possível.</p>
+              <div class="modal-content">
+                <form class="message" accept-charset="UTF-8">
+                  <input type="hidden" name="utf8" value="✓">
+                  <input type="text" name="name" placeholder="Seu nome" required autofocus>
+                  <input type="email" name="email" placeholder="Seu email" required>
+                  <input type="text" name="phone" placeholder="Seu telefone">
+                  <textarea name="text" placeholder="Sua mensagem" required></textarea>
+                  <button type="submit"><span class="fa fa-check"></span>&nbsp; Enviar</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </li> 
+</ul>
+
+<a name="depoimentos">
+  <h1 class="break">Depoimentos</h1>
+</a>
+
+<ul class="comments">
+  <li class="comment">
+    <div class="comment-image">
+      <img src="https://avatars0.githubusercontent.com/u/726170" alt="Logo image">
+    </div>
+    <div class="comment-content">
+      <h1>Vinicius Gomes</h1>
+      <p>Acompanho o trabalho do Carlos há muitos anos e posso atestar a sua competência na execução de inúmeros projetos nas regiões metropolitana e sul do estado.</p>
+      <p class="comment-detail">Programador na ThoughtWorks Inc. - Porto Alegre</p>
+    </div>
+  </li>
+
+  <li class="comment">
+    <div class="comment-image">
+      <img src="http://bit.ly/1BOefcb" alt="Logo image">
+    </div>
+    <div class="comment-content">
+      <h1>Fernanda Corezola</h1>
+      <p>O Carlos é um profissional versátil. Já atuou em projetos residenciais, comerciais e públicos. recentemente está se especializando em PPCI.</p>
+      <p class="comment-detail">Servidora Pública - Porto Alegre</p>
+    </div>
+ 
+  <li class="comment">
+    <div class="comment-image">
+      <img src="http://www.topnews.in/law/files/luiz-inacio-lula-da-silva.jpg" alt="Logo image">
+    </div>
+    <div class="comment-content">
+      <h1>Lula</h1>
+      <p>O companheiro Vieira, além de muita experiência na Engenharia Civil, também possui uma enorme capacidade de gestão de pessoas e de projetos de grande porte.</p>
+      <p class="comment-detail">Ex Presidente - Brasilia</p>
+    </div>
+  </li>
+ </li>
+</ul>
+
+<a name="local">
+  <h1 class="break">Localização</h1>
+</a>
+
+<div id="map_canvas"></div>
+<address class="vcard">
+  <div class="fn org">
+    <span class="fa fa-cubes"></span>
+    <strong>Carlos Eduardo Vieira Engenharia</strong>
+  </div>
+  <div class="adr">
+    <div class="street-adress">Av. Vicente Montégia 2000/32</div>
+    <span class="postal-code">91740-290</spap>
+    <span class="locality">Porto Alegre</span> - <span class="region">RS</span>, 
+    <span class="country">Brasil</span>
+ </div>
+</address>
+
+<a name="contato">
+  <h1 class="break">Contato</h1>
+</a>
+
+<section class="contact">
+  <form class="message" accept-charset="UTF-8">
+    <input type="hidden" name="utf8" value="✓">
+    <input type="text" name="name" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu email" required>
+    <input type="text" name="phone" placeholder="Seu telefone">
+    <textarea name="text" placeholder="Sua mensagem" required></textarea>
+    <button type="submit"><span class="fa fa-envelope"></span>&nbsp; Enviar</button>
+  </form>
+</section>
+
+<a name="sobre">
+  <h1 class="break">Sobre</h1>
+</a>
+
+<div class="side-image">
+  <div class="images-wrapper"></div>
+    <div class="side-image-content">
+      <h4>Curriculum Vitae</h4>
+      <h1>Carlos Eduardo Viera</h1>
+      <p>Profissional de Engenharia Civil desde 1985, licenciado pelo CREA-RS com o número 88885555, também possui licenciamento junto ao CRECI-RS com o número 55553333. Especialista em PPCI, realizou capacitação na área em 2014. Mais de dez mil projetos assinados na carreira. Como gestor público, foi secretário do planejamento de Porto Alegre entre 2003 e 2006 e Diretor do DAER-RS entre 2012 e 2014.</p>
+      <button><span class="fa fa-file-text"></span>&nbsp; Veja mais</button>
+  </div>
 </div>
 </main>
-  
+<footer class="footer">
+  <div class="footer-logo">
+    <span class="fa fa-cubes fa-4x" alt="Logo">
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li><h3>Conteúdo</h3></li>
+      <li><a href="javascript:void(0)">Engenharia Civil</a></li>
+      <li><a href="javascript:void(0)">PPCI</a></li>
+      <li><a href="javascript:void(0)">Regularização Predial</a></li>
+    </ul>
+    <ul>
+      <li><h3>Mais</h3></li>
+      <li><a href="javascript:void(0)">Trabalhe Conosco</a></li>
+      <li><a href="javascript:void(0)">Política de Privacidade</a></li>
+      <li><a href="http://gitub.com/vvgomes/vieira">Código Fonte do Site</a></li>
+    </ul>
+    <ul>
+      <li><h3>Social</h3></li>
+      <li>
+        <a href="javascript:void(0)">
+          <span class="fa fa-linkedin-square"></span>&nbsp;Linkedin
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <span class="fa fa-facebook-square"></span>&nbsp;Facebook
+        </a>
+      </li>
+      <li>
+        <a href="javascript:void(0)">
+          <span class="fa fa-twitter-square"></span>&nbsp;Twitter
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <p><span class="fa fa-copyright"></span> 2015 Carlos Eduardo Vieira Engenharia</p>
+  <p>Desenvolvido por <a href="http://about.me/vvgomes" target="_blank">Vinicius Gomes <span class="fa fa-external-link"></span></a></p>
+</footer>
+
+
+<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="/vieira/js/scripts.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  var bittersMap = (function () {
+    var myLatlng = new google.maps.LatLng(-30.1112964, -51.2180596),
+        mapCenter = new google.maps.LatLng(-30.1112964, -51.2180596),
+        mapCanvas = document.getElementById('map_canvas'),
+        mapOptions = {
+          center: mapCenter,
+          zoom: 14,
+          scrollwheel: false,
+          draggable: true,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+        map = new google.maps.Map(mapCanvas, mapOptions),
+        contentString =
+          '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">Carlos Eduardo Vieira Engenharia</h1>'+
+          '<div id="bodyContent"'+
+          '<p>Vicente Montegia 2000/32 - Porto Alegre/RS - Brasil</p>'+
+          '</div>'+
+          '</div>',
+        infowindow = new google.maps.InfoWindow({
+          content: contentString,
+          maxWidth: 300
+        }),
+        marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Carlos Eduardo Vieira - Porto Alegre'
+        });
+
+    return {
+      init: function () {
+        map.set('styles', [{
+          featureType: 'landscape',
+          elementType: 'geometry',
+          stylers: [
+            { hue: '#ffff00' },
+            { saturation: 30 },
+            { lightness: 10}
+          ]}
+        ]);
+
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map,marker);
+        });
+      }
+    };
+  }());
+
+  bittersMap.init();
+</script>
 </body>
 </html>
