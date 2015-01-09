@@ -6,4 +6,41 @@
 
 @import 'header';
 @import 'footer';
+@import 'hero';
+@import 'bullets';
+@import 'comment';
+@import 'map';
+@import 'side-image';
 
+h1.break {
+  text-align: center;
+  margin: 2em;
+  font-weight: 100;
+}
+
+address {
+  @include outer-container;
+  padding: 25px;
+  text-align: center;
+}
+
+section.contact {
+  @include outer-container;
+  text-align: center;
+  padding-bottom: 25px;
+ 
+  .message {
+    @include span-columns(10);
+    @include shift(1);
+
+    @include media(600px) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+
+    @include media(1000px) {
+      @include span-columns(6);
+      @include shift(3);
+    }
+  }
+}

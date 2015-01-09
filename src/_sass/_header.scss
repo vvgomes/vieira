@@ -42,13 +42,18 @@ header.navigation {
 
   .logo {
     float: left;
-    max-height: $navigation-height;
+    //max-height: $navigation-height;
     padding-left: $navigation-padding;
     padding-right: 2em;
+
 
     img {
       max-height: $navigation-height;
       padding: .8em 0;
+    }
+
+    .fa {
+      line-height: $navigation-height;
     }
   }
 
@@ -332,6 +337,10 @@ header.navigation {
           height: 12px;
           opacity: .7;
           padding: 1px;
+        }
+
+        .fa {
+          color: $navigation-color; 
         }
       }
     }
