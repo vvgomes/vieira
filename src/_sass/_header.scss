@@ -1,5 +1,4 @@
 header.navigation {
-  ///////////////////////////////////////////////////////////////////////////////////
   $base-border-color: gainsboro !default;
   $base-border-radius: 3px !default;
   $base-accent-color: #477DCA !default;
@@ -10,7 +9,6 @@ header.navigation {
   a {
     text-decoration: none;
   }
-  //////////////////////////////////////////////////////////////////////////////////
 
   $navigation-padding: 1em;
   $navigation-background: $dark-gray;
@@ -27,6 +25,8 @@ header.navigation {
   $navigation-submenu-width: 12em;
   $horizontal-bar-mode: $large-screen;
 
+  position: fixed;
+
   background-color: $navigation-background;
   border-bottom: 1px solid darken($navigation-background, 10);
   min-height: $navigation-height;
@@ -36,7 +36,6 @@ header.navigation {
   .navigation-wrapper {
     @include clearfix;
     @include outer-container;
-    position: relative;
     z-index: 9999;
   }
 

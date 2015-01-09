@@ -13,6 +13,15 @@
 @import 'side-image';
 @import 'modal';
 
+main {
+  $default-padding-top: 120px;
+  padding-top: $default-padding-top;
+
+  @include media ($large-screen) {
+    padding-top: $default-padding-top/2;
+  }
+}
+
 h1.break {
   text-align: center;
   margin: 2em;
