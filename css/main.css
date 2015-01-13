@@ -591,6 +591,7 @@ html {
 
 header.navigation {
   -webkit-font-smoothing: antialiased;
+  position: fixed;
   background-color: #333;
   border-bottom: 1px solid #1a1a1a;
   min-height: 60px;
@@ -602,7 +603,6 @@ header.navigation {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
     z-index: 9999; }
     header.navigation .navigation-wrapper::after {
       clear: both;
@@ -1389,9 +1389,17 @@ header.navigation {
   .modal .modal-state:checked + .modal-window .modal-inner {
     top: .5em; }
 
+main {
+  padding-top: 120px; }
+  @media screen and (min-width: 53.75em) {
+    main {
+      padding-top: 60px; } }
+
 h1.break {
   text-align: center;
   margin: 2em;
+  margin-top: 0;
+  padding-top: 2em;
   font-weight: 100; }
 
 address {
