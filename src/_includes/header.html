@@ -1,13 +1,13 @@
 <header class="navigation">
   <div class="navigation-wrapper">
-    <a href="javascript:void(0)" class="logo">
+    <a href="{{ '/' | prepend: site.baseurl }}" class="logo">
       <span class="fa fa-cubes fa-2x" alt="Logo"></span>
     </a>
     <a href="javascript:void(0)" class="navigation-menu-button" id="js-mobile-menu">MENU</a>
     <div class="nav">
       <ul id="js-navigation-menu" class="navigation-menu show">
         <li class="nav-link">
-          <a href="{{ "/" | prepend: site.baseurl }}" >Inicio</a>
+          <a href="{{ '/' | prepend: site.baseurl }}" >Inicio</a>
         </li>
         <li class="nav-link more">
           <a href="#servicos">Serviços</a>
