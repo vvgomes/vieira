@@ -28,14 +28,14 @@ layout: default
       <span class="fa fa-pencil fa-2x"></span>
     </div>
     <div class="bullet-content">
-      <h2>Projetos de edificações residenciais e comerciais</h2>
+      <h2>Projetos de Edificações</h2>
       <p>
         Elaboração de projetos de edificações residenciais e comerciais 
         e execução de obras e serviços de engenharia civil.
       </p>
-      {% include saiba-mais-modal.html %}
+      {% include modal-civil.html %}
       <footer>
-        {% include orcamento-modal.html %}
+        {% include modal-orcamento.html %}
       </footer>
     </div>
   </li>  
@@ -47,12 +47,12 @@ layout: default
     <div class="bullet-content">
       <h2>PPCI</h2>
       <p>
-        Plano de Prevenção Contra Incêndios - projeto 
+        Plano de Prevenção e Proteção Contra Incêndio - laudos, projeto 
         e execução visando a adequação com a nova legislação. 
       </p>
-      {% include saiba-mais-modal.html %}
+      {% include modal-ppci.html %}
       <footer>
-        {% include orcamento-modal.html %}
+        {% include modal-orcamento.html %}
       </footer>
     </div>
   </li>
@@ -67,9 +67,9 @@ layout: default
         Laudos técnicos de inspeção 
         predial de acordo com a legislação vigente. 
       </p>
-      {% include saiba-mais-modal.html %}
+      {% include modal-predial.html %}
       <footer>
-        {% include orcamento-modal.html %}
+        {% include modal-orcamento.html %}
       </footer>
     </div>
   </li> 
@@ -144,12 +144,14 @@ layout: default
 
 <section class="contact">
   <form class="message" accept-charset="UTF-8">
-    <input type="hidden" name="utf8" value="✓">
-    <input type="text" name="name" placeholder="Seu nome" required>
-    <input type="email" name="email" placeholder="Seu email" required>
-    <input type="text" name="phone" placeholder="Seu telefone">
-    <textarea name="text" placeholder="Sua mensagem" required></textarea>
-    <button type="submit"><span class="fa fa-envelope"></span>&nbsp; Enviar</button>
+    <fieldset>
+      <input type="hidden" name="utf8" value="✓">
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <input type="text" name="phone" placeholder="Seu telefone">
+      <textarea name="text" placeholder="Sua mensagem" required></textarea>
+      <button type="submit"><span class="fa fa-envelope"></span>&nbsp; Enviar</button>
+    </fieldset>
   </form>
 </section>
 
