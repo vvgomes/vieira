@@ -967,7 +967,9 @@ header.navigation {
   .hero button {
     -webkit-font-smoothing: antialiased; }
   .hero .subtitle {
-    color: #333; }
+    display: block;
+    color: #333;
+    font-size: 1.5em; }
   .hero .hero-logo {
     margin-bottom: 15px; }
   .hero .hero-inner {
