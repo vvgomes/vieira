@@ -1389,11 +1389,14 @@ header.navigation {
   .modal .modal-state:checked + .modal-window .modal-inner {
     top: .5em; }
 
-main {
-  padding-top: 120px; }
+main:before {
+  content: '';
+  display: block;
+  height: 120px;
+  z-index: -1; }
   @media screen and (min-width: 53.75em) {
-    main {
-      padding-top: 60px; } }
+    main:before {
+      height: 60px; } }
 
 h1.break {
   text-align: center;
