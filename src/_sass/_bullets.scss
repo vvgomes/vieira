@@ -55,16 +55,22 @@
     }
   }
 
-  .bullet-icon-1 {
+  .bullet-icon-civil {
     background: adjust-hue($base-accent-color, -50);
   }
 
-  .bullet-icon-2 {
+  .bullet-icon-ppci {
     background: adjust-hue($base-accent-color, -200);
   }
 
-  .bullet-icon-3 {
+  .bullet-icon-predial {
     background: adjust-hue($base-accent-color, -140);
+  }
+
+  .bullet-icon-trans {
+    background: adjust-hue($base-accent-color, -250);
+    padding-top: 12px;
+    padding-left: 12px;
   }
 
   .bullet-content {
