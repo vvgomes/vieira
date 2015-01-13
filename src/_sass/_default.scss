@@ -14,13 +14,6 @@
 @import 'modal';
 
 main {
-  //$default-padding-top: 120px;
-  //padding-top: $default-padding-top;
-
-  //@include media ($large-screen) {
-  //  padding-top: $default-padding-top/2;
-  //}
-
   &:before {
     content: '';
     display: block;

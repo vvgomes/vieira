@@ -22,7 +22,9 @@
   padding-bottom: 3em;
 
   .subtitle {
+    display: block;
     color: $dark-gray;
+    font-size: 1.5em;
   }
 
   .hero-logo {
