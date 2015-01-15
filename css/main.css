@@ -1007,7 +1007,7 @@ header.navigation {
         @media screen and (min-width: 53.75em) {
           .hero .hero-inner .hero-copy p {
             font-size: 1.1em;
-            max-width: 40%; } }
+            max-width: 60%; } }
     .hero .hero-inner button {
       background-color: #477DCA;
       border-radius: 3px;
