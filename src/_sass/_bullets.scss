@@ -34,7 +34,8 @@
   overflow: auto;
 
   .bullet {
-    @include flex-basis(20em);
+    //@include flex-basis(20em);
+    @include flex-basis(30em);
     @include flex-grow(1);
     padding: 20px;
     padding-bottom: 50px;
