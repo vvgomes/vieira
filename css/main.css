@@ -558,6 +558,10 @@ ol {
   margin: 0;
   padding: 0;
   list-style-type: none; }
+  ul.traditional {
+    list-style-type: disc;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
 dl {
   margin-bottom: 0.75em; }
   dl dt {
@@ -1056,10 +1060,10 @@ header.navigation {
   .bullets img {
     max-width: 100%; }
   .bullets .bullet {
-    -webkit-flex-basis: 20em;
-    -moz-flex-basis: 20em;
-    flex-basis: 20em;
-    -ms-flex-preferred-size: 20em;
+    -webkit-flex-basis: 30em;
+    -moz-flex-basis: 30em;
+    flex-basis: 30em;
+    -ms-flex-preferred-size: 30em;
     -webkit-flex-grow: 1;
     -moz-flex-grow: 1;
     flex-grow: 1;
@@ -1077,12 +1081,16 @@ header.navigation {
     text-align: center; }
     .bullets .bullet-icon span.fa {
       color: white; }
-  .bullets .bullet-icon-1 {
+  .bullets .bullet-icon-civil {
     background: #47caaa; }
-  .bullets .bullet-icon-2 {
+  .bullets .bullet-icon-ppci {
     background: #ca6847; }
-  .bullets .bullet-icon-3 {
+  .bullets .bullet-icon-predial {
     background: #a9ca47; }
+  .bullets .bullet-icon-trans {
+    background: #ca4793;
+    padding-top: 12px;
+    padding-left: 12px; }
   .bullets .bullet-content {
     margin-left: 4.9em;
     margin-bottom: 70px; }
@@ -1454,3 +1462,17 @@ section.contact {
         margin-left: 25.58941%; }
         section.contact .message:last-child {
           margin-right: 0; } }
+
+ul.traditional li {
+  list-style: square; }
+
+.modal.service .modal-inner {
+  width: 60%; }
+  .modal.service .modal-inner .bullet-icon {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    padding-top: 0;
+    text-align: center; }
+    .modal.service .modal-inner .bullet-icon .fa {
+      font-size: .7em; }
