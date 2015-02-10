@@ -48,7 +48,7 @@ section.contact {
   text-align: center;
   padding-bottom: 25px;
  
-  .message {
+  .message, .phones {
     @include span-columns(10);
     @include shift(1);
 
@@ -61,6 +61,10 @@ section.contact {
       @include span-columns(6);
       @include shift(3);
     }
+  }
+  
+  .phones {
+    margin-top: 20px;
   }
 }
 
