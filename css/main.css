@@ -1200,8 +1200,8 @@ header.navigation {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("http://www.daer.rs.gov.br/site/imagens/noticias/noticia748.jpg"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
-    background: url("http://www.daer.rs.gov.br/site/imagens/noticias/noticia748.jpg"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+    background: url("/vieira/about2.png"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+    background: url("/vieira/about2.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
     background-color: #B5EBEB;
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
@@ -1212,7 +1212,7 @@ header.navigation {
       .side-image .images-wrapper {
         display: table-cell;
         width: 33.33333%;
-        background-position: right;
+        background-position: bottom;
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
   .side-image .side-image-content {
@@ -1436,32 +1436,34 @@ section.contact {
     clear: both;
     content: "";
     display: table; }
-  section.contact .message {
+  section.contact .message, section.contact .phones {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%;
     margin-left: 8.5298%; }
-    section.contact .message:last-child {
+    section.contact .message:last-child, section.contact .phones:last-child {
       margin-right: 0; }
     @media screen and (min-width: 600px) {
-      section.contact .message {
+      section.contact .message, section.contact .phones {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 65.88078%;
         margin-left: 17.05961%; }
-        section.contact .message:last-child {
+        section.contact .message:last-child, section.contact .phones:last-child {
           margin-right: 0; } }
     @media screen and (min-width: 1000px) {
-      section.contact .message {
+      section.contact .message, section.contact .phones {
         float: left;
         display: block;
         margin-right: 2.35765%;
         width: 48.82117%;
         margin-left: 25.58941%; }
-        section.contact .message:last-child {
+        section.contact .message:last-child, section.contact .phones:last-child {
           margin-right: 0; } }
+  section.contact .phones {
+    margin-top: 20px; }
 
 ul.traditional li {
   list-style: square; }
