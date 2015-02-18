@@ -961,8 +961,8 @@ header.navigation {
 
 .hero {
   -webkit-font-smoothing: antialiased;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: -webkit-linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
+  background: linear-gradient(10deg, #20392B, #7F99BE), no-repeat #7F99BE scroll;
   background-color: #324766;
   background-position: top;
   background-repeat: no-repeat;
