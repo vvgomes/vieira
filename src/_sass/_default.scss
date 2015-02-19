@@ -63,8 +63,12 @@ section.contact {
     }
   }
   
-  .phones {
+  ul.phones {
     margin-top: 20px;
+
+    li + li {
+      margin-top: 10px;
+    }
   }
 }
 
