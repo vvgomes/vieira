@@ -1462,8 +1462,10 @@ section.contact {
         margin-left: 25.58941%; }
         section.contact .message:last-child, section.contact .phones:last-child {
           margin-right: 0; } }
-  section.contact .phones {
+  section.contact ul.phones {
     margin-top: 20px; }
+    section.contact ul.phones li + li {
+      margin-top: 10px; }
 
 ul.traditional li {
   list-style: square; }
