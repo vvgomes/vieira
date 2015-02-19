@@ -99,13 +99,14 @@ layout: default
 </a>
 
 <section class="contact">
-  <form class="message" accept-charset="UTF-8">
+  <form class="message" accept-charset="UTF-8" action="http://vieira.herokuapp.com/messages" method="post">
     <fieldset>
       <input type="hidden" name="utf8" value="✓">
-      <input type="text" name="name" placeholder="Seu nome" required>
-      <input type="email" name="email" placeholder="Seu email" required>
-      <input type="text" name="phone" placeholder="Seu telefone">
-      <textarea name="text" placeholder="Sua mensagem" required></textarea>
+      <input type="hidden" name="message[kind]" value="general">
+      <input type="text" name="message[name]" placeholder="Seu nome" required>
+      <input type="email" name="message[email]" placeholder="Seu email" required>
+      <input type="text" name="message[telephone]" placeholder="Seu telefone">
+      <textarea name="message[content]" placeholder="Sua mensagem" required></textarea>
       <button type="submit"><span class="fa fa-envelope"></span>&nbsp; Enviar</button>
     </fieldset>
   </form>
