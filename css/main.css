@@ -1262,6 +1262,8 @@ header.navigation {
   -webkit-font-smoothing: antialiased; }
   .modal h1 {
     margin: 0; }
+    .modal h1 .text-after-icon {
+      margin-left: 10px; }
   .modal p {
     color: #333;
     line-height: 1.5; }
