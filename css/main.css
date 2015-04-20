@@ -1202,8 +1202,8 @@ header.navigation {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("/about2.png"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
-    background: url("/about2.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+    background: url("/img/about2.png"), -webkit-linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+    background: url("/img/about2.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
     background-color: #B5EBEB;
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
