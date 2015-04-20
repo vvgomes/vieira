@@ -968,12 +968,16 @@ header.navigation {
   padding-bottom: 3em; }
   .hero button {
     -webkit-font-smoothing: antialiased; }
+  .hero .title {
+    font-weight: 200; }
   .hero .subtitle {
     display: block;
     color: #333;
-    font-size: 1.5em; }
+    font-size: 1.8em; }
   .hero .hero-logo {
     margin-bottom: 15px; }
+    .hero .hero-logo img {
+      width: 25%; }
   .hero .hero-inner {
     max-width: 68em;
     margin-left: auto;
