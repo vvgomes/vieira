@@ -36,6 +36,9 @@
           </ul>
         </li>
         <li class="nav-link">
+          <a href="#local">Localização</a>
+        </li>
+        <li class="nav-link">
           <a href="#contato">Contato</a>
         </li>
         <li class="nav-link">
@@ -384,6 +387,26 @@
 
 <hr />
 
+<a name="local">
+  <h1 class="break">Localização</h1>
+</a>
+
+<div id="map_canvas"></div>
+<address class="vcard">
+  <div class="fn org">
+    <span class="fa fa-map-marker"></span>
+    <strong>Carlos Eduardo Vieira Engenharia</strong>
+  </div>
+  <div class="adr">
+    <div class="street-adress">Av. Getulio Vargas 744, sala 405</div>
+    <span class="postal-code">90150-002</spap>
+    <span class="locality">Porto Alegre</span> - <span class="region">RS</span>, 
+    <span class="country">Brasil</span>
+ </div>
+</address>
+
+<hr />
+
 <a name="contato">
   <h1 class="break">Contato</h1>
 </a>
@@ -485,5 +508,59 @@
   ga('create', 'UA-60648825-1', 'auto');
   ga('send', 'pageview');
 </script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  var bittersMap = (function () {
+    var myLatlng = new google.maps.LatLng(-30.051409,-51.2219825),
+        mapCenter = new google.maps.LatLng(-30.051409,-51.2219825),
+        mapCanvas = document.getElementById('map_canvas'),
+        mapOptions = {
+          center: mapCenter,
+          zoom: 14,
+          scrollwheel: false,
+          draggable: true,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+        map = new google.maps.Map(mapCanvas, mapOptions),
+        contentString =
+          '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">Carlos Eduardo Vieira Engenharia</h1>'+
+          '<div id="bodyContent"'+
+          '<p>Av. Getulio Vargas, 774, sala 405, Bairro Menino Deus, Porto Alegre-RS CEP 90150-002</p>'+
+          '</div>'+
+          '</div>',
+        infowindow = new google.maps.InfoWindow({
+          content: contentString,
+          maxWidth: 300
+        }),
+        marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'Carlos Eduardo Vieira - Porto Alegre'
+        });
+    return {
+      init: function () {
+        map.set('styles', [{
+          featureType: 'landscape',
+          elementType: 'geometry',
+          stylers: [
+            { hue: '#ffff00' },
+            { saturation: 30 },
+            { lightness: 10}
+          ]}
+        ]);
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map,marker);
+        });
+      }
+    };
+  }());
+  bittersMap.init();
+</script>
+</body>
+</html>
 </body>
 </html>
