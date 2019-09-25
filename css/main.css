@@ -969,11 +969,12 @@ header.navigation {
   .hero button {
     -webkit-font-smoothing: antialiased; }
   .hero .title {
-    font-weight: 200; }
+    font-weight: 200;
+    font-size: 1.8em; }
   .hero .subtitle {
     display: block;
     color: #333;
-    font-size: 1.8em; }
+    font-size: 1.5em; }
   .hero .hero-logo {
     margin-bottom: 15px; }
     .hero .hero-logo img {
